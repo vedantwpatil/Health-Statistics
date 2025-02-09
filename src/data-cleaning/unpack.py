@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 # Parse the XML file
-tree = ET.parse("apple_health_export/export.xml")  # Changed the file path
+tree = ET.parse("apple_health_export/export.xml")
 root = tree.getroot()
 
 # Extract records into a list of dictionaries
